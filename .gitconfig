@@ -1,0 +1,6 @@
+[lfs]
+	url = http://onca.ucs.baengr.gogoair.com:8081/artifactory/api/lfs/lfs-local
+[filter "lfs"]
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true
